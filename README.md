@@ -1,94 +1,53 @@
-# ecommerce-event-streaming-platform
 # E-commerce Event Streaming Platform
 
-Event-driven analytics platform that ingests, processes, transforms, and visualizes e-commerce events in near real time.
+## Overview
+
+A portfolio project that demonstrates event-driven analytics using distributed data processing.
+
+This project will simulate real-time e-commerce events and transform them into business insights.
 
 ---
 
-## Business Problem
+## Planned Stack
 
-E-commerce systems generate continuous streams of operational data.
-
-Traditional reporting introduces delays.
-
-This platform demonstrates near real-time analytics using event-driven architecture.
-
----
-
-## Objectives
-
-- Simulate real-time events
-- Process streaming data
-- Generate business metrics
-- Visualize operational insights
-
----
-
-## Architecture
-
-```text
-Python Producer
-↓
-
-Kafka
-↓
-
-Spark Streaming
-↓
-
-PostgreSQL
-↓
-
-Dashboard
-```
-
----
-
-## Tech Stack
-
-| Layer | Technology |
-|--------|------------|
-| Producer | Python |
-| Streaming | Kafka |
-| Processing | Spark |
-| Storage | PostgreSQL |
-| Containerization | Docker |
-| Dashboard | Streamlit |
-
----
-
-## Metrics
-
-- Orders / minute
-- Revenue / minute
-- Payment success %
-- Inventory alerts
-
----
-
-## Repository Structure
-
-See project folders.
+- Python
+- Kafka
+- Spark
+- PostgreSQL
+- Docker
+- Streamlit
 
 ---
 
 ## Status
 
-Project Setup Phase
+Repository Initialization
 
 ---
 
-## Roadmap
+## Goal
 
-- [ ] Infrastructure
-- [ ] Event Producer
-- [ ] Streaming
-- [ ] Storage
-- [ ] Dashboard
-- [ ] Deployment
+Demonstrate:
+
+- Event Streaming
+- Distributed Processing
+- Data Engineering Practices
+- Analytics Delivery
 
 ---
 
-## Portfolio Goal
+## Planned Architecture
 
-Demonstrate distributed data processing and event-driven analytics.
+Producer
+↓
+
+Streaming
+↓
+
+Processing
+↓
+
+Storage
+↓
+
+Dashboard
